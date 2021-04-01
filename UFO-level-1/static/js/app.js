@@ -1,3 +1,4 @@
+// UFO Level 1
 // Get a reference to the table body
 var tbody = d3.select("tbody")
 
@@ -22,10 +23,12 @@ function buildTable(tData) {
         });
     });
 }
+// Call function to populate data
 buildTable(data);
 
 // Get a reference to the button on the page with the id property set to 'filter-btn'
 
+// Create variables for each filter button and call the function using D3 button
 function filterButtonTapped() {
     var datetimeField = d3.select('#datetime').property('value');
     var cityField = d3.select('#city').property('value');
