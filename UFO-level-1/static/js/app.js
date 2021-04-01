@@ -1,4 +1,5 @@
 // UFO Level 1
+
 // Get a reference to the table body
 var tbody = d3.select("tbody")
 
@@ -25,6 +26,8 @@ function buildTable(tData) {
 }
 // Call function to populate data
 buildTable(data);
+
+// UFO Level 2
 
 // Get a reference to the button on the page with the id property set to 'filter-btn'
 
